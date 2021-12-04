@@ -1,4 +1,5 @@
-import 'package:flutter_web/material.dart';
-import 'package:webdemo/src/app/app.dart';
+import 'package:flutter/material.dart';
 
-void main() => runApp(App());
+import 'app/app.dart';
+
+void main() => runApp(App(key: UniqueKey()));
